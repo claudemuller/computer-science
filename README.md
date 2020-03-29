@@ -21,7 +21,7 @@
 - [Summary](#summary)
 - [Curriculum](#curriculum)
   - [Prerequisites](#prerequisites)
-  - [Introduction to Computer Science](#introduction-to-computer-science)
+  - [Intro CS](#intro-cs)
   - [Core CS](#core-cs)
   - [Advanced CS](#advanced-cs)
   - [Final project](#final-project)
@@ -65,7 +65,7 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 
 **Duration**. It is possible to finish Core CS within about 2 years if you plan carefully and devote roughly 18-22 hours/week to your studies.
 Courses in Core CS should be taken linearly if possible, but since a perfectly linear progression is rarely possible,
-each class's prerequisites is specified so that you can design a logical but non-linear progression
+each class's prerequisites are specified so that you can design a logical but non-linear progression
 based on the class schedules and your own life plans.
 
 **Cost**. All or nearly all course material prior to Pro CS is available for free.
@@ -78,21 +78,23 @@ just remember that you can't purchase success!
 - For grouping up, please use the [cohorts repository](https://github.com/ossu/cohorts) to find or create a cohort suited to you.
 - We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
 - For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom, as they have already been [topologically sorted](https://en.wikipedia.org/wiki/Topological_sorting) by their prerequisites.
-- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in, and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
+- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
 
 **Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
 *Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
 
 **How to contribute**. Please see [CONTRIBUTING](CONTRIBUTING.md).
 
-**Getting help**. Please check our [Frequently Asked Questions](FAQ.md), and if you cannot find the answer, file an issue or talk to our [friendly community](#community)!
+**Getting help**. Please check our [Frequently Asked Questions](FAQ.md), and if you cannot find the answer, file an issue or talk to our [friendly community](#community)! In particular, join in the conversation on our [Gitter](https://gitter.im/open-source-society/computer-science) (which is an online chat service, similar to Discord or IRC) where you can chat with other students and get help. [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
 
 # Curriculum
 
 **Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
 
 - [Prerequisites](#prerequisites)
-- [Introduction to Computer Science](#introduction-to-computer-science)
+- [Intro CS](#intro-cs)
+  - [Introduction to Programming](#introduction-to-programming)
+  - [Introduction to Computer Science](#introduction-to-computer-science)
 - [Core CS](#core-cs)
   - [Core programming](#core-programming)
   - [Core math](#core-math)
@@ -118,9 +120,30 @@ Some high school graduates will have already taken AP Calculus, but this is usua
 and is knowledgeable enough now to decide which electives to take.
 - Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
 
-## Introduction to Computer Science
+## Intro CS
 
-This course will introduce you to the world of computer science.
+### Introduction to Programming
+
+If you've never written a for-loop, or don't know what a string is in programming, start here. Choose one of the two course series below. Either one will give you an introduction to programming that assumes no prior knowledge.
+
+Trying to decide between them?
+
+_Python for Everyone_ will introduce you to a popular language and will quickly move to practical programming tasks - using web APIs and databases. This will give you a taste of what many professional developers do.
+
+_Fundamentals of Computing_ will also start by introducing you to Python. It then moves on to give an introduction to academic Computer Science topics, like sorting and recursion. This will give you a taste of what the following courses will be like. (Students who complete _Fundamentals of Computing_ can skip Intro to Computer Science and begin Core CS.)
+
+**Topics covered**:
+`simple programs`
+`simple data structures`
+
+Courses | Effort | Prerequisites
+:-- | :--: | :--:
+[Python for Everyone](https://www.coursera.org/specializations/python) ([alt](https://www.py4e.com/)) | 58 hours | none
+[Fundamentals of Computing](https://www.coursera.org/specializations/computer-fundamentals) | 138 hours | high school mathematics
+
+### Introduction to Computer Science
+
+This course will introduce you to the world of computer science. Students who have been introduced to programming, either from the courses above or through study elsewhere, should take this course for a flavor of the material to come. If you finish the course wanting more, Computer Science is likely for you!
 
 **Topics covered**:
 `computation`
@@ -130,7 +153,7 @@ This course will introduce you to the world of computer science.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) | 9 weeks | 15 hours/week | high school algebra
+[Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) ([alt](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)) | 9 weeks | 15 hours/week | high school algebra
 
 ## Core CS
 
@@ -167,41 +190,49 @@ Courses | Duration | Effort | Prerequisites
   - **Note**: probably the best resource to learn Haskell: [Haskell Programming from First Principles](http://haskellbook.com/) `paid`
 - **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://lpn.swi-prolog.org/lpnpage.php?pageid=top)
 
-### Core math
+### Math Electives
+**Students must choose one of the following topics**: calculus, linear algebra, logic, or probability.
 
-**Topics covered**:
-`linear transformations`
-`matrices`
-`vectors`
-`mathematical proofs`
-`number theory`
-`differential calculus`
-`integral calculus`
-`sequences and series`
-`discrete mathematics`
-`basic statistics`
-`O-notation`
-`graph theory`
-`vector calculus`
-`discrete probability`
-`and more`
-
+#### Linear Algebra
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | pre-calculus
-[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | Essence of Linear Algebra
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers-0) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | Essence of Linear Algebra
+
+#### Calculus
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
 [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | pre-calculus
 [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A
 [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 13 weeks | 5-10 hours/week | Calculus 1B
+
+#### Logic
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | set theory
+
+#### Probability
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | Multivariable Calculus
+
+### Math Core
+In addition to their math elective, students must complete the following course on discrete mathematics.
+
+**Topics covered**:
+`discrete mathematics`
+`mathematical proofs`
+`basic statistics`
+`O-notation`
+`discrete probability`
+`and more`
+
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm)<sup>**1**</sup> | 13 weeks | 5 hours/week | Calculus 1C
 
 <sup>**1**</sup>: Students struggling with MIT Math for CS can consider taking the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first.
 It is more interactive but less comprehensive, and it costs money to unlock full interactivity.
 
 ### Core systems
-
-Skip to the second course (Nand2Tetris) when the first course (CS50) moves away from C.
-([Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
 
 **Topics covered**:
 `procedural programming`
@@ -219,16 +250,13 @@ Skip to the second course (Nand2Tetris) when the first course (CS50) moves away 
 `network protocols`
 `and more`
 
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | introductory programming
-[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | C-like programming language
-[Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | one of [these programming languages](https://user-images.githubusercontent.com/2046800/35426340-f6ce6358-026a-11e8-8bbb-4e95ac36b1d7.png), From Nand to Tetris Part I
-[Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| 8 weeks | 4–12 hours/week | algebra, probability, basic CS
-[ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
-
-#### Readings
-- **Recommended**: While Hack the Kernel recommends Modern Operating Systems as a textbook, we suggest using [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
+Courses | Duration | Effort | Additional Text / Assignments| Prerequisites
+:-- | :--: | :--: | :--: | :--:
+[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | After the sections on C, skip to the next course. [Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50) | introductory programming
+[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | - | C-like programming language
+[Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | - | one of [these programming languages](https://user-images.githubusercontent.com/2046800/35426340-f6ce6358-026a-11e8-8bbb-4e95ac36b1d7.png), From Nand to Tetris Part I
+[Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ2dr0XO_Nwa5OcdEcaaELSG)| 8 weeks | 4–12 hours/week | [Assignment 1](https://github.com/PrincetonUniversity/COS461-Public/tree/master/assignments/assignment1)<br>[Assignment 2](https://www.scs.stanford.edu/10au-cs144/lab/reliable/reliable.html)<br>[Assignment 3](https://nptel.ac.in/content/storage2/courses/106105080/pdf/M2L7.pdf)<br>[Assignment 4](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v7.0.pdf) | algebra, probability, basic CS
+[ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | Replace course textbook with [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) | algorithms
 
 ### Core theory
 
@@ -245,10 +273,9 @@ Courses | Duration | Effort | Prerequisites
 `NP-completeness`
 `and more`
 
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Algorithms: Design and Analysis, Part I](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about) | 8 weeks | 4-8 hours/week | any programming language, Mathematics for Computer Science
-[Algorithms: Design and Analysis, Part II](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about) | 8 weeks | 4-8 hours/week | Part I
+Courses | Duration | Prerequisites
+:-- | :--: | :--:
+[Algorithms](https://www.coursera.org/specializations/algorithms) | 80 hours | any programming language, Mathematics for Computer Science
 
 
 ### Core applications
@@ -266,9 +293,6 @@ Courses | Duration | Effort | Prerequisites
 `unsupervised learning`
 `OpenGL`
 `raytracing`
-`block ciphers`
-`authentication`
-`public key encryption`
 `and more`
 
 Courses | Duration | Effort | Prerequisites
@@ -276,7 +300,6 @@ Courses | Duration | Effort | Prerequisites
 [Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week | some programming, basic CS
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week | linear algebra
 [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
-[Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra, probability
 [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | 6 weeks | 8-10 hours/week | Software Construction - Object-Oriented Design
 [Software Development Capstone Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx) | 6-7 weeks | 8-10 hours/week | Software Engineering: Introduction
 
@@ -305,27 +328,12 @@ If not, or if a student chooses not to take the Capstone, then a separate Final 
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
+[Compilers](https://web.stanford.edu/class/cs143/index2018.html) ([lectures](https://www.youtube.com/playlist?list=PLDcmCgguL9rxPoVn2ykUFc8TOpLyDU5gx))| 9 weeks | 6-8 hours/week | none
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
 [Software Testing](https://www.udacity.com/course/software-testing--cs258) | 4 weeks | 6 hours/week | Python, programming experience
 [LAFF - On Programming for Correctness](https://www.edx.org/course/laff-on-programming-for-correctness) | 7 weeks | 6 hours/week | linear algebra
-[Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) ([alt](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_)) | 12 weeks | - | C, algorithms
+[Introduction to Parallel Programming](https://classroom.udacity.com/courses/cs344) ([alt](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_)) | 12 weeks | - | C, algorithms
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java
-
-### Advanced math
-
-**Topics covered**:
-`parametric equations`
-`polar coordinate systems`
-`multivariable integrals`
-`multivariable differentials`
-`probability theory`
-`and more`
-
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | MIT Calculus 1C
-[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | Multivariable Calculus
 
 ### Advanced systems
 
@@ -347,8 +355,8 @@ Courses | Duration | Effort | Prerequisites
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Reliable Distributed Systems, Part 1](https://www.edx.org/course/reliable-distributed-algorithms-part-1-kthx-id2203-1x) | 5 weeks | 5 hours/week | Scala, intermediate CS
-[Reliable Distributed Systems, Part 2](https://www.edx.org/course/reliable-distributed-algorithms-part-2-kthx-id2203-2x) | 5 weeks | 5 hours/week | Part 1
+[Reliable Distributed Systems, Part 1](https://www.edx.org/course/reliable-distributed-algorithms-part-1-kthx-id2203-1x) ([alt](https://www.youtube.com/watch?v=bPMOpxFMJUE&list=PLpeTtG9-RpWkQHiB_mAR9aftkuTluFxdX)) | 5 weeks | 5 hours/week | Scala, intermediate CS
+[Reliable Distributed Systems, Part 2](https://www.edx.org/course/reliable-distributed-algorithms-part-2-kthx-id2203-2x) ([alt](https://www.youtube.com/watch?v=jFCQ4hmMcus&list=PLx3mQFFeHPjndmQ0iP9j6C58b90hqGa0X&index=92)) | 5 weeks | 5 hours/week | Part 1
 [Electricity and Magnetism, Part 1](https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x-0)<sup>1</sup> | 7 weeks | 8-10 hours/week | calculus, basic mechanics
 [Electricity and Magnetism, Part 2](https://www.edx.org/course/electricity-magnetism-part-2-ricex-phys102-2x-0) | 7 weeks | 8-10 hours/week | Electricity and Magnetism, Part 1
 [Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0) | 10 weeks | 6 hours/week | electricity, magnetism
@@ -382,11 +390,10 @@ If you are struggling, you can find a physics MOOC or utilize the materials from
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | set theory
 [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+SelfPaced/about) | 7 weeks | 10 hours/week | discrete mathematics, logic, algorithms
 [Computational Geometry](https://www.edx.org/course/computational-geometry-tsinghuax-70240183x) | 16 weeks | 8 hours/week | algorithms, C++
 [Introduction to Formal Concept Analysis](https://www.coursera.org/learn/formal-concept-analysis) | 6 weeks | 4-6 hours/week | logic, probability
-[Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | x hours/week | mathematical thinking, probability, calculus
+[Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | 3 hours/week | mathematical thinking, probability, calculus
 
 ### Advanced applications
 
@@ -397,7 +404,7 @@ So if you don't wish to spend money or use the Capstone as your Final, it may be
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Robotics (Specialization)](https://www.coursera.org/specializations/robotics) | 26 weeks | 2-5 hours/week | linear algebra, calculus, programming, probability
+[Modern Robotics (Specialization)](https://www.coursera.org/specializations/modernrobotics) | 26 weeks | 2-5 hours/week | freshman-level physics, linear algebra, calculus, linear ordinary differential equations
 [Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
 [Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
 [Internet of Things (Specialization)](https://www.coursera.org/specializations/internet-of-things) | 30 weeks | 1-5 hours/week | strong programming
@@ -409,7 +416,7 @@ Courses | Duration | Effort | Prerequisites
 ## Final project
 
 OSS University is **project-focused**.
-You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
+You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real-world problem.
 
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
 Not only does real project work look great on a resume, but the project will also *validate* and *consolidate* your knowledge.
@@ -464,7 +471,7 @@ Many of these courses are graduate-level.
 Choose one or more of the following **specializations**:
 - [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
 - [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
-- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
+- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by Kaggle
 - [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
 - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
 
@@ -490,19 +497,16 @@ These aren't the only specializations you can choose. Check the following websit
 
 # Community
 
+- We have a chat room! This should be your first stop to talk with other OSSU students. [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
+- You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation.
 - Subscribe to our [newsletter](https://tinyletter.com/ossu).
-- Use our [forum](https://github.com/ossu/forum) if you need some help.
-- You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
-- We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
 - Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
-
-> **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
-**Please use our forum for important discussions**.
+- There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](./FAQ.md).
 
 ## How to show your progress
 
 1. Create an account in [Trello](https://trello.com/).
-1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account.
+1. Copy [this](https://trello.com/b/7NIfi40X) board to your personal account.
 See how to copy a board [here](https://help.trello.com/article/802-copying-cards-lists-or-boards).
 
 Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.

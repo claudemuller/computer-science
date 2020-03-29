@@ -33,6 +33,7 @@ Courses | Duration | Effort
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 [Linear Algebra (Strang)](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm) | - | -
+[Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week
 
 ## Systems
 
@@ -72,6 +73,14 @@ Courses | Duration | Effort
 [Machine Learning for Data Science and Analytics](https://www.edx.org/course/machine-learning-data-science-analytics-columbiax-ds102x-0)| 5 weeks | 7-10 hours/week
 [Processing Big Data with Azure HDInsight](https://www.edx.org/course/processing-big-data-azure-hdinsight-microsoft-dat202-1x-0)| 5 weeks | 3-4 hours/week
 [Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
+
+## Tools
+
+Courses | Duration | Effort
+:-- | :--: | :--:
+[How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) | 3 weeks | 2-3 hours/week
+[Kubernetes Certified Application Developer](https://www.udemy.com/course/certified-kubernetes-application-developer/) | 5 weeks | 2 hours/week
+
 
 # Online Learning - Great Courses
 
